@@ -106,8 +106,11 @@ class BasicOverlayPy(GstBase.BaseTransform):
         # cairo scale
         ctx.scale(self.width, self.height)
         for box in self.boxlist:
-            BasicOverlayPy.draw_box(self, ctx, box)
-
+           BasicOverlayPy.draw_box(self, ctx, box)
+        
+        del ctx
+        del surface
+        buf.unmap(mapinfo)
         return Gst.FlowReturn.OK
     
     def do_set_caps(self, icaps, ocaps):
