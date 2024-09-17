@@ -1,0 +1,11 @@
+# ninja log v5
+1	136	0	gobjectest.p/src_testclass.c.o	413bf97cf826016e
+0	434	1726553033377167689	build.ninja	8ac2b128b906189b
+1	149	0	gobjectest.p/src_myclass.c.o	b75583402b736260
+149	201	0	gobjectest	8944a0bae51f91e7
+112	164	1726552962188298745	testclass	db5a5b7cdfba3463
+0	422	0	reconfigure	8ac2b128b906189b
+1	96	1726552962120299856	testclass.p/src_testclass.c.o	429606b6b8f0a4a9
+1	944	0	meson-install	9bd7faa9472bf40f
+0	112	1726552962136299595	testclass.p/src_myclass.c.o	fde07ded724be06e
+0	417	0	reconfigure	8ac2b128b906189b

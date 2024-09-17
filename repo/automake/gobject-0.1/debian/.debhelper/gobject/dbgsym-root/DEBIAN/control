@@ -1,0 +1,13 @@
+Package: gobject-dbgsym
+Package-Type: ddeb
+Source: gobject
+Version: 0.1-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: mandar <mandar@unknown>
+Installed-Size: 25
+Depends: gobject (= 0.1-1)
+Section: debug
+Priority: optional
+Description: debug symbols for gobject
+Build-Ids: fd94406b4d41f71c736f436105387db751f3120f

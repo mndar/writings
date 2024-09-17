@@ -1,0 +1,11 @@
+Package: gobject
+Version: 0.1-1
+Architecture: amd64
+Maintainer: mandar <mandar@unknown>
+Installed-Size: 28
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.37.3)
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>

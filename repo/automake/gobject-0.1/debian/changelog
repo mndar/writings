@@ -1,0 +1,5 @@
+gobject (0.1-1) UNRELEASED; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- mandar <mandar@unknown>  Mon, 16 Sep 2024 18:19:10 +0530
